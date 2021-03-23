@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty",
-                "html:build/reports/cucumber.html"
+                "html:build/reports/cucumber"
                 ,"json:build/reports/cucumber-tests/test.json"},
         glue = {"stepdefs"},
         features = "src/test/resources/features/fmi-scenario.feature",
