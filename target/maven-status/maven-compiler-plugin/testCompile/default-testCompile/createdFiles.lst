@@ -1,0 +1,6 @@
+stepdefs\StepDefinitions.class
+domain\pages\FmiHomePage.class
+service\NavigateWebServ.class
+utilities\BaseTest.class
+runner\RunTest.class
+utilities\BasePage.class

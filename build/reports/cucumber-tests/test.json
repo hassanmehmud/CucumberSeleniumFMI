@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-23T10:18:22.601Z",
+        "line": 4,
+        "name": "A user is able to open webpage of Finnish Meteorological Institute and check local weather",
+        "description": "",
+        "id": "finnish-meteorological-institute-navigation;a-user-is-able-to-open-webpage-of-finnish-meteorological-institute-and-check-local-weather",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user has a webpage URL",
+            "match": {
+              "location": "stepdefs.StepDefinitions.theUserHasAWebpageURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5397000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user opens the home page successfully",
+            "match": {
+              "location": "stepdefs.StepDefinitions.theUserOpensTheHomePageSuccessfully()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7702000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is able to check local weather successfully",
+            "match": {
+              "location": "stepdefs.StepDefinitions.theUserIsAbleToCheckLocalWeatherSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testExercise"
+          }
+        ]
+      }
+    ],
+    "name": "Finnish Meteorological Institute Navigation",
+    "description": "",
+    "id": "finnish-meteorological-institute-navigation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/fmi-scenario.feature",
+    "tags": []
+  }
+]
