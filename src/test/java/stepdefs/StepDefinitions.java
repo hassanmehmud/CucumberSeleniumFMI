@@ -37,8 +37,8 @@ public class StepDefinitions {
     /*
      * Opens FMI homepage
      */
-    @When("The user opens the home page successfully")
-    public void theUserOpensTheHomePageSuccessfully() {
+    @When("The user opens URL the home page successfully")
+    public void theUserOpensURLTheHomePageSuccessfully() {
         navigateWebServ.openWebPage();
     }
     /*

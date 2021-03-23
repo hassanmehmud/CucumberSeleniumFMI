@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-03-23T10:18:22.601Z",
+        "start_timestamp": "2021-03-23T11:02:50.289Z",
         "line": 4,
         "name": "A user is able to open webpage of Finnish Meteorological Institute and check local weather",
         "description": "",
@@ -24,19 +24,19 @@
           },
           {
             "result": {
-              "duration": 5397000000,
+              "duration": 7844000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "The user opens the home page successfully",
+            "name": "The user opens URL the home page successfully",
             "match": {
-              "location": "stepdefs.StepDefinitions.theUserOpensTheHomePageSuccessfully()"
+              "location": "stepdefs.StepDefinitions.theUserOpensURLTheHomePageSuccessfully()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 7702000000,
+              "duration": 4376000000,
               "status": "passed"
             },
             "line": 7,
