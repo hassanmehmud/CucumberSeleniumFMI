@@ -1,9 +1,7 @@
 package runner;
 import io.cucumber.junit.Cucumber;
-//import io.cucumber.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
 import io.cucumber.junit.CucumberOptions;
-//import org.testng.annotations.Test;
 /**
  * This package provides example test suite with Cucumber for Finnish Meteorological Institute and includes following steps:
  * 1 - Launches chrome driver
@@ -11,7 +9,6 @@ import io.cucumber.junit.CucumberOptions;
  * 3 - Selects Local Weather
  * 4 - Local weather webpage is displayed
  */
-//@Test
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty",
