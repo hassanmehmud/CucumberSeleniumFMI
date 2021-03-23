@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-03-23T14:15:48.659Z",
+        "start_timestamp": "2021-03-23T14:19:55.379Z",
         "line": 4,
         "name": "A user is able to open webpage of Finnish Meteorological Institute and check local weather",
         "description": "",
@@ -13,7 +13,6 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 6004000000,
+              "duration": 6710000000,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 5273000000,
+              "duration": 4921000000,
               "status": "passed"
             },
             "line": 7,
